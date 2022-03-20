@@ -11,9 +11,10 @@ namespace Becomex.Robo.Frontend.Controllers
 	[Route("[controller]")]
 	public class RoboController : ControllerBase
 	{
-		
-		[HttpGet("Rest")]
-		public string Rest()
+
+		#region ARM LEFT
+		[HttpGet("RestLeft")]
+		public string RestLeft()
 		{
 			return "O R.O.B.O está em repouso";
 		}
@@ -24,23 +25,10 @@ namespace Becomex.Robo.Frontend.Controllers
 			return "O R.O.B.O está com braço esquerdo levemente contraido";
 		}
 
-
-		[HttpGet("SlightlyContratedRight")]
-		public string SlightlyContratedRight()
-		{
-			return "O R.O.B.O está com braço direito levemente contraido";
-		}
-
 		[HttpGet("ContratedLeft")]
 		public string ContratedLeft()
 		{
 			return "O R.O.B.O está com braço esquerdo levemente contraido";
-		}
-
-		[HttpGet("ContratedRight")]
-		public string ContratedRight()
-		{
-			return "O R.O.B.O está com braço direito levemente contraido";
 		}
 
 		[HttpGet("StronglyContratedLeft")]
@@ -49,22 +37,10 @@ namespace Becomex.Robo.Frontend.Controllers
 			return "O R.O.B.O está com braço esquerdo fortemente contraido";
 		}
 
-		[HttpGet("StronglyContratedRight")]
-		public string StronglyContratedRight()
-		{
-			return "O R.O.B.O está com braço direito fortemente contraido";
-		}
-
 		[HttpGet("RotationToMinus90Left")]
 		public string RotationToMinus90Left()
 		{
 			return "O R.O.B.O está com braço esquerdo com rotação de -90º";
-		}
-
-		[HttpGet("RotationToMinus90Right")]
-		public string RotationToMinus90Right()
-		{
-			return "O R.O.B.O está com braço direito com rotação de -90º";
 		}
 
 		[HttpGet("RotationToMinus45Left")]
@@ -73,22 +49,10 @@ namespace Becomex.Robo.Frontend.Controllers
 			return "O R.O.B.O está com braço esquerdo com rotação de -45º";
 		}
 
-		[HttpGet("RotationTo45Right")]
-		public string RotationTo45Right()
-		{
-			return "O R.O.B.O está com braço direito com rotação de 45º";
-		}
-
 		[HttpGet("RotationTo45Left")]
 		public string RotationTo45Left()
 		{
 			return "O R.O.B.O está com braço esquerdo com rotação de 45º";
-		}
-
-		[HttpGet("RotationTo90Right")]
-		public string RotationTo90Right()
-		{
-			return "O R.O.B.O está com braço direito com rotação de 90º";
 		}
 
 		[HttpGet("RotationTo90Left")]
@@ -97,8 +61,86 @@ namespace Becomex.Robo.Frontend.Controllers
 			return "O R.O.B.O está com braço esquerdo com rotação de 90º";
 		}
 
+		#endregion
 
+		#region ARM RIGHT
 
+		[HttpGet("RestRight")]
+		public string RestRight()
+		{
+			return "O R.O.B.O está em repouso";
+		}
+
+		[HttpGet("SlightlyContratedRight")]
+		public string SlightlyContratedRight()
+		{
+			return "O R.O.B.O está com braço direito levemente contraido";
+		}
+
+		[HttpGet("ContratedRight")]
+		public string ContratedRight()
+		{
+			return "O R.O.B.O está com braço direito levemente contraido";
+		}
+
+		[HttpGet("StronglyContratedRight")]
+		public string StronglyContratedRight()
+		{
+			return "O R.O.B.O está com braço direito fortemente contraido";
+		}
+
+		[HttpGet("RotationToMinus90Right")]
+		public string RotationToMinus90Right()
+		{
+			return "O R.O.B.O está com braço direito com rotação de -90º";
+		}
+
+		[HttpGet("RotationTo45Right")]
+		public string RotationTo45Right()
+		{
+			return "O R.O.B.O está com braço direito com rotação de 45º";
+		}
+
+		[HttpGet("RotationTo90Right")]
+		public string RotationTo90Right()
+		{
+			return "O R.O.B.O está com braço direito com rotação de 90º";
+		}
+
+		#endregion
+
+		#region HEAD
+
+		[HttpGet("HeadRotationToMinus90")]
+		public string HeadRotationToMinus90()
+		{
+			return "A cabeça está com rotação de -90º";
+		}
+
+		[HttpGet("HeadRotationToMinus45")]
+		public string HeadRotationToMinus45()
+		{
+			return "A cabeça está com rotação de -45º";
+		}
+
+		[HttpGet("HeadRest")]
+		public string HeadRest()
+		{
+			return "A cabeça está em repouso";
+		}
+
+		[HttpGet("HeadUp")]
+		public string HeadUp()
+		{
+			return "A cabeça está para cima";
+		}
+
+		[HttpGet("HeadDown")]
+		public string Down()
+		{
+			return "A cabeça está para baixo";
+		}
+		#endregion
 
 	}
 }
