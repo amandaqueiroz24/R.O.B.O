@@ -1,0 +1,12 @@
+C:\Users\amand\source\repos\Becomex.Robo.Frontend\Becomex.ROBO.Application\bin\Debug\net5.0\Becomex.ROBO.Application.deps.json
+C:\Users\amand\source\repos\Becomex.Robo.Frontend\Becomex.ROBO.Application\bin\Debug\net5.0\Becomex.ROBO.Application.dll
+C:\Users\amand\source\repos\Becomex.Robo.Frontend\Becomex.ROBO.Application\bin\Debug\net5.0\ref\Becomex.ROBO.Application.dll
+C:\Users\amand\source\repos\Becomex.Robo.Frontend\Becomex.ROBO.Application\bin\Debug\net5.0\Becomex.ROBO.Application.pdb
+C:\Users\amand\source\repos\Becomex.Robo.Frontend\Becomex.ROBO.Application\obj\Debug\net5.0\Becomex.ROBO.Application.csproj.AssemblyReference.cache
+C:\Users\amand\source\repos\Becomex.Robo.Frontend\Becomex.ROBO.Application\obj\Debug\net5.0\Becomex.ROBO.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amand\source\repos\Becomex.Robo.Frontend\Becomex.ROBO.Application\obj\Debug\net5.0\Becomex.ROBO.Application.AssemblyInfoInputs.cache
+C:\Users\amand\source\repos\Becomex.Robo.Frontend\Becomex.ROBO.Application\obj\Debug\net5.0\Becomex.ROBO.Application.AssemblyInfo.cs
+C:\Users\amand\source\repos\Becomex.Robo.Frontend\Becomex.ROBO.Application\obj\Debug\net5.0\Becomex.ROBO.Application.csproj.CoreCompileInputs.cache
+C:\Users\amand\source\repos\Becomex.Robo.Frontend\Becomex.ROBO.Application\obj\Debug\net5.0\Becomex.ROBO.Application.dll
+C:\Users\amand\source\repos\Becomex.Robo.Frontend\Becomex.ROBO.Application\obj\Debug\net5.0\ref\Becomex.ROBO.Application.dll
+C:\Users\amand\source\repos\Becomex.Robo.Frontend\Becomex.ROBO.Application\obj\Debug\net5.0\Becomex.ROBO.Application.pdb

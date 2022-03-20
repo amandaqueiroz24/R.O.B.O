@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FcvsV1v0BKrhj3HwgLkckRWSDzHes8WIy2OuXUzwGdGa7U97D+C7Z/Bn13qcfX+FhLEnmsIJJ+xJiZ0KmyHbog==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\amand\\source\\repos\\Becomex.Robo.Frontend\\Becomex.ROBO.Application\\Becomex.ROBO.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amand\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
